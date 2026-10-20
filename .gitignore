@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+*.log
+.DS_Store
+
+# Jupyter
+*.nbconvert.ipynb
+
+# Data and generated artifacts (review before committing)
+data/*.csv
+models/*
+!models/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+service-account*.json
+
+# Local outputs and private data
+*.sqlite
+*.db
+logs/
+private_data/
+
+watson_deployment/models/*.joblib

@@ -1,0 +1,5 @@
+model,accuracy,precision,recall,f1_score,roc_auc,training_seconds
+Logistic Regression,0.7517,0.3488,0.6383,0.4511,0.8032,0.031
+Linear Discriminant Analysis,0.8639,0.6207,0.383,0.4737,0.7971,0.025
+Neural Network,0.8605,0.625,0.3191,0.4225,0.7915,0.223
+Naive Bayes,0.6463,0.2605,0.6596,0.3735,0.7032,0.031
